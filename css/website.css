@@ -28,26 +28,205 @@
 }
 
 .intro {
-    background-color: rgb(61, 61, 61);
-    width: 70%;
+    /*background-color: rgb(88, 88, 88);*/
+    width: 77%;
     height: auto;
     display: flex;
 
 }
 
 .portrait {
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    height: 600px;
     margin: 20px;
 
-    background-image: url(../img/My\ Head-shot\ B&W.png);
+    background-image: url(../img/My\ Head-shot.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .introText {
-    background-color: rgb(88, 88, 88);
+    /*background-color: rgb(88, 88, 88);*/
     width: 55%;
     height: auto;
     padding: 20px;
+}
+
+.rightAlign {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+
+    /*background-color: rgb(88, 88, 88);*/
+}
+
+.leftAlign {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 5%;
+
+    /*background-color: rgb(88, 88, 88);*/
+}
+
+.universityImage {
+    width: 700px;
+    height: 600px;
+    margin: 20px;
+    background-image: url(../img/StudentCampusIllustration.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nextLevelImage {
+    width: 950px;
+    height: 500px;
+    margin: 20px;
+    background-image: url(../img/Next\ Level\ Schools.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.successImage {
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    background-image: url(../img/SuccessImage.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.polishImage {
+    width: 450px;
+    height: 600px;
+    margin: 20px;
+    background-image: url(../img/PolishingWork2.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.workingImage {
+    width: 700px;
+    height: 600px;
+    margin: 20px;
+    background-image: url(../img/jobApply.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.universityText {
+    /*background-color: rgb(88, 88, 88);*/
+    width: 55%;
+    height: auto;
+    padding: 20px;
+}
+
+.beforeAfter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.before, .after {
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(201, 201, 201);
+    box-shadow: 5px 10px 8px #88888860;
+
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+.before:hover, .after:hover {
+    background-color: rgb(204, 192, 30);
+    z-index: 2;
+    width: 100%;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+.projectContainer {
+    width: 100%;
+    height: auto;
+    padding: 3% 3% 0 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.projectCard {
+    width: 400px;
+    aspect-ratio: 1/1;
+
+    display: flex;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #88888860;
+
+    background-color: rgb(224, 224, 224);
+}
+
+.projectCard > img {
+    inline-size: 100%;
+    object-fit: cover;
+}
+
+.titleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 88.1%;
+    height: 25%;
+    background-color: rgba(88, 88, 88, 0.5);
+}
+
+.githubContainer {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.outerContainer {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerContainer {
+    width: 300px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 5px 10px 8px #88888860;
+
+    background-color: rgb(224, 224, 224);
 }
