@@ -33,15 +33,6 @@ body{
     padding: 0px 150px;
 }
 
-.logo-container h1 {
-    color: white;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 32px;
-}
-
 .navigation {    
     float: right;
     height: 30%;
@@ -51,7 +42,7 @@ body{
     height: 100%;
     display: table;
     float: left;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 .navigation a:last-child {
@@ -93,7 +84,6 @@ p {
 a {
 	cursor: pointer;
 	color: aliceblue;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .spacer {
@@ -114,6 +104,14 @@ a {
 
 button {
 	cursor: pointer;
+}
+
+li {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	letter-spacing: 2px;
+	word-spacing: 4px;
 }
 
 h1 {
@@ -236,6 +234,26 @@ figcaption > a {
 	width: var(--iconspacer);
 	aspect-ratio: 1/1;
 	background-image: url("../img/insta.png");
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.github-icon {
+	width: var(--iconspacer);
+	aspect-ratio: 1/1;
+	background-image: url("../img/Github\(Grey\).png");
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.github-icon:hover {
+	width: var(--iconspacer);
+	aspect-ratio: 1/1;
+	background-image: url("../img/Github\(Blue\).png");
 
 	background-size: cover;
 	background-repeat: no-repeat;
